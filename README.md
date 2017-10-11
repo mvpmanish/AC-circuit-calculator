@@ -1,2 +1,3 @@
 # AC-circuit-calculator
 A program to create alternating circuits using resistors, capacitors, and inductors and calculate the impedance of that circuit.
+The objective of this project was to write a program to compute the impedance of an A.C circuit with an arbitrary number of resistors, capacitors and inductors. A vector of abstract base class pointers was used to let the user build a component library of any valued resistor, capacitor or inductor. This library was used to construct circuits with the total impedance of the circuit and a circuit diagram in ASCII characters printed to the terminal. The constructed circuit could then be saved in a vector of pointers to circuits and printed again from a library menu.
